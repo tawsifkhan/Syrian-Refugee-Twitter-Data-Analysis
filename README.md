@@ -6,8 +6,8 @@ Here I will use Python and R to analyze tweets regarding the Syrian Refugee cris
     Completed:
         1. Get the data set using Twitter API (Python)
         2. Fetch country information usin Google Maps API (Python)
+        3. Count words
     
     To Do:
-        1. Use Hadoop MapReduce to do a word count on the tweet messages. (Python)
-        2. Analysis (R)
+        1. Analysis (R)
         
