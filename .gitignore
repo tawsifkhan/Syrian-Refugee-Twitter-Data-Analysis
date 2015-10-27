@@ -42,6 +42,8 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+analysis.html
+analysis.Rmd
 
 # Translations
 *.mo
