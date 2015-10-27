@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import sys
-
+import csv
 wordCount = 0
 oldKey = None
 
@@ -13,7 +13,10 @@ for line in sys.stdin:
 	        continue
 
 	if oldKey and oldKey != thisKey:
-		print oldKey,"\t",wordCount
+		word,country = oldKey
+		csvfile = open("../wordcount1.csv","a")
+		writer = csv.writer(csvfile,dialect = "excel")
+		writer.writerow([word,country,wordCount])
 		oldKey = thisKey
 		wordCount = 0
 
@@ -21,5 +24,8 @@ for line in sys.stdin:
 	wordCount += 1
 
 if oldKey != None:
-	print oldKey,"\t", wordCount
-
+		word,country = oldKey
+		csvfile = open("../wordcount1.csv","a")
+		writer = csv.writer(csvfile,dialect = "excel")
+		writer.writerow([word,country,wordCount])
+		
