@@ -59,6 +59,5 @@ docs/_build/
 target/
 src/apikeys.txt
 .idea/
-README_files/
 README.html
 README.Rmd
