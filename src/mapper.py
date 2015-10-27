@@ -13,5 +13,5 @@ for line in reader:
 	tweetWords = re.findall(r"['\w]+",tweet)
 	for word in tweetWords:
 		if len(re.findall(r"[a-z]",word.lower())) == len(word) and len(word)>3:
-			print "{0}\t{1}".format(word.lower(),country)
+			print("{0}\t{1}".format(word.lower(),country))
 	

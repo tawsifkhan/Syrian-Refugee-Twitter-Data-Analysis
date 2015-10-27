@@ -7,13 +7,13 @@ oldKey = None
 
 for line in sys.stdin:
 	data_mapped = line.strip().split("\t")
-	thisKey, node_id = data_mapped
+	thisKey = data_mapped
 	if len(data_mapped) != 2:
         # Something has gone wrong. Skip this line.
 	        continue
 
 	if oldKey and oldKey != thisKey:
-		print oldKey,"\t",wordCount,"\t",node_id
+		print oldKey,"\t",wordCount
 		oldKey = thisKey
 		wordCount = 0
 
@@ -21,5 +21,5 @@ for line in sys.stdin:
 	wordCount += 1
 
 if oldKey != None:
-	print oldKey,"\t", wordCount,"\t",node_id 
+	print oldKey,"\t", wordCount
 

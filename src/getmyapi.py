@@ -5,7 +5,7 @@ class GetAPI:
         with open("../src/apikeys.txt") as file:
             for line in file:
                 if line.split(" ")[0] == request:
-                    return line.split(" = ")[1]
+                    return line.split(" = ")[1].split("\n")[0]
 
 
 
