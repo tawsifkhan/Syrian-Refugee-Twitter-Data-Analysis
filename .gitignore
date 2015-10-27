@@ -59,6 +59,6 @@ docs/_build/
 target/
 src/apikeys.txt
 .idea/
-analysis_files/
-analysis.html
-analysis.Rmd
+README_files/
+README.html
+README.Rmd
