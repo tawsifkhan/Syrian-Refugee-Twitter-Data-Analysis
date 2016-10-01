@@ -2,6 +2,11 @@
 TawsifKhan  
 October 26, 2015  
 
+Update- Look up Xia's cool project. He used my scapper :)
+
+https://github.com/Elixeus/infoviz_refugee_project
+
+
 Here I will use Python and R to analyze tweets regarding the Syrian Refugee crisis. I would like to see which countries are most active in terms of such tweets, and also what are the most popular words corresponding to each country.
 
 I am currently using the following filter:
