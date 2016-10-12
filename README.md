@@ -2,7 +2,7 @@
 TawsifKhan  
 October 26, 2015  
 
-Update- Look up Xia's cool project. He used my scapper :)
+Update- Look up Xia's cool project. He used my scrapper :)
 
 https://github.com/Elixeus/infoviz_refugee_project
 
